@@ -1,0 +1,40 @@
+body {
+  background-color: #1e1e2e;
+  color: #cdd6f4;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.list-group-item {
+  background-color: #313244;
+  color: #cdd6f4;
+  border-color: #4c4f69;
+  transition: transform 0.3s ease-in-out;
+}
+
+.list-group-item:hover {
+  background-color: #45475a;
+  transform: scale(1.01);
+  box-shadow: 0 10px 25px rgba(76, 79, 105, 0.1);
+}
+
+.btn-light {
+  color: #11111b;
+  background-color: #89b4fa;
+  border: #fab387 3px solid;
+}
+
+.btn-light:hover {
+  color: #11111b;
+  background-color: #f5e0dc;
+  border: #fab387 3px solid;
+}
+
+.project-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-item h5 {
+  margin: 0;
+}
